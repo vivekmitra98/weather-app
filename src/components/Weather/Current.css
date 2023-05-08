@@ -1,0 +1,52 @@
+.current {
+  width: 30rem;
+  margin: 3rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.border-dark {
+  border: 1px solid #121212;
+}
+
+.border-light {
+  border: 1px solid #ffde19;
+}
+
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city-description {
+  text-align: left;
+}
+
+.city {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.temperature {
+  font-size: 4.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.details .value {
+  font-weight: 700;
+}
+
+.details p {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  font-size: 1rem;
+}

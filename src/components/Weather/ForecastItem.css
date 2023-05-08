@@ -1,0 +1,35 @@
+.forecast-item {
+  width: 50rem;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25rem;
+}
+
+.day-date {
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-day {
+  font-weight: 700;
+}
+
+.forecast-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.forecast-temps {
+  font-weight: 700;
+}
