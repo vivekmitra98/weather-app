@@ -8,9 +8,12 @@
 html,
 body {
   height: 100vh;
+  transition: background 0.2s linear;
+}
+
+.light {
   background: #ffde19;
   color: #121212;
-  transition: background 0.2s linear;
 }
 
 .dark {

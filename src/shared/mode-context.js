@@ -10,9 +10,11 @@ const ModeContextProvider = (props) => {
 
   useEffect(() => {
     if (darkMode === true) {
+      document.querySelector("body").classList.remove("light");
       document.querySelector("body").classList.add("dark");
     } else {
       document.querySelector("body").classList.remove("dark");
+      document.querySelector("body").classList.add("light");
     }
   }, [darkMode]);
 
